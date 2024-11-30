@@ -34,6 +34,26 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
+author:
+  name     : "cocodding"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "코딩좋아"
+  location : "경기도 안산, Republic of Korea"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+enable_copy_code_button: true
+search: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
